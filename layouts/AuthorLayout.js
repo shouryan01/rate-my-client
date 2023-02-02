@@ -15,7 +15,7 @@ export default function AuthorLayout({ children, frontMatter }) {
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-          <div className="flex flex-col items-center pt-8">
+          {/* <div className="flex flex-col items-center pt-8">
             <Image
               src={avatar}
               alt="avatar"
@@ -32,7 +32,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
             </div>
-          </div>
+          </div> */}
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
         </div>
       </div>
