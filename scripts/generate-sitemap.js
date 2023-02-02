@@ -11,7 +11,6 @@ const siteMetadata = require('../data/siteMetadata')
     'pages/*.tsx',
     'data/client/**/*.mdx',
     'data/client/**/*.md',
-    'public/tags/**/*.xml',
     '!pages/_*.js',
     '!pages/_*.tsx',
     '!pages/api',
