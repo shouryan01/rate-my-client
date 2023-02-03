@@ -89,6 +89,12 @@ const projectsData = [
     imgSrc: '/static/images/time-machine.jpg',
     href: '/client/Ibrahim-Munaser',
   },
+  {
+    title: 'Michael Chen',
+    description: ``,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: '/client/Michael-Chen',
+  },
 ]
 
 export default projectsData
